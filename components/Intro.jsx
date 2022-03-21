@@ -10,7 +10,6 @@ function Intro() {
       <Circle backgroundColor="#01c686" right="-40vh" />
       <div className={styles.card}>
         <h1 className={styles.title}>
-          {' '}
           <span className={styles.brand}>AV0C0D0</span> DIGITAL PRODUCT AGENCY
         </h1>
         <p className={styles.desc}>
