@@ -10,7 +10,7 @@ function Services({ services }) {
       <h1 className={styles.subTitle}>Services we can help you with</h1>
       <div className={styles.services}>
         {services.map((service) => (
-          <Link href={`/products/${service.name}`} key={service.id}>
+          <Link href={`/products/${service.name}`} key={service.id} passHref>
             <div className={styles.service}>
               <div className={styles.desc}>{service.desc}</div>
               <span className={styles.cat}>{service.title}</span>
