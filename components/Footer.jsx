@@ -24,7 +24,8 @@ function Footer() {
       </div>
       <div className={styles.cardS}>
         <div className={styles.cardItem}>
-          12 ADAM STREET NY <br /> USA
+          12 ADAM STREET NY <br />
+          New York USA
         </div>
         <div className={styles.cardItem}>
           italimbd@gmail.com <br /> +8801860060068
