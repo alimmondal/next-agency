@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../styles/Intro.module.css';
 import Image from 'next/image';
 import Circle from './Circle';
+import Link from 'next/link';
 
 function Intro() {
   return (
@@ -16,7 +17,9 @@ function Intro() {
           Create live segment and target the right people for message based on
           their behaviors
         </p>
-        <button className={styles.button}>Discover</button>
+        <button className={styles.button}>
+          <Link href="/contact">Discover</Link>
+        </button>
       </div>
       <div className={styles.card}>
         <Image
