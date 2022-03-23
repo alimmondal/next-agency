@@ -17,6 +17,7 @@
   width: 30%;
   margin: 5px;
   background-color: green;
+  position: relative;
 }
 
 .imgContainer:nth-child(3) {
