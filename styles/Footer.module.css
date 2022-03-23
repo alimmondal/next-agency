@@ -1,11 +1,12 @@
 .container {
   height: 250px;
-  border-top: 3px solid #000;
+  border-top: 5px solid greenyellow;
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: 18px;
   padding: 50px;
+  background-color: #000;
 }
 
 .title {
@@ -18,10 +19,12 @@
 
 .linkTitle {
   text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
 }
-
-.linkText {
-  margin-right: 20px;
+.linkImg {
+  background-color: #fff;
+  border-radius: 3px;
 }
 
 .cardL {
@@ -33,6 +36,7 @@
 }
 .cardItem {
   margin-bottom: 20px;
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
