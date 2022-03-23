@@ -3,6 +3,7 @@ import styles from '../styles/Testimonials.module.css';
 import Circle from '../components/Circle';
 import { users } from '../data';
 import Image from 'next/image';
+
 function Testimonials() {
   return (
     <div className={styles.container}>

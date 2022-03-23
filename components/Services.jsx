@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Services.module.css';
-import Link from 'next/Link';
+import Link from 'next/link';
 import Image from 'next/image';
 
 function Services({ services }) {
