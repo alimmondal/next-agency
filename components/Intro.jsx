@@ -20,7 +20,7 @@ function Intro() {
       </div>
       <div className={styles.card}>
         <Image
-          src={process.env.NEXT_PUBLIC_URL + '/img/Avocado.png'}
+          src="/img/Avocado.png"
           alt="img"
           width="100%"
           height="100%"

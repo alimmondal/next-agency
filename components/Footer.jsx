@@ -12,20 +12,14 @@ function Footer() {
           <Link href="/contact" passHref>
             <>
               <span className={styles.linkText}>WORK WITH US</span>
-              <Image
-                src={process.env.NEXT_PUBLIC_URL + '/img/link.png'}
-                width="40"
-                height="40"
-                alt=""
-              />
+              <Image src="/img/link.png" width="40" height="40" alt="" />
             </>
           </Link>
         </h1>
       </div>
       <div className={styles.cardS}>
         <div className={styles.cardItem}>
-          12 ADAM STREET NY <br />
-          New York USA
+          12 ADAM STREET NY <br /> USA
         </div>
         <div className={styles.cardItem}>
           italimbd@gmail.com <br /> +8801860060068
