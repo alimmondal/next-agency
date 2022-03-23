@@ -10,10 +10,8 @@ function Footer() {
         <h1 className={styles.title}>AV0CAD0 CREATIVES.</h1>
         <h1 className={styles.linkTitle}>
           <Link href="/contact" passHref>
-            <>
-              <span className={styles.linkText}>WORK WITH US</span>
-              <Image src="/img/link.png" width="40" height="40" alt="" />
-            </>
+            <span className={styles.linkText}>WORK WITH US</span>
+            <Image src="/img/link.png" width="40" height="40" alt="" />
           </Link>
         </h1>
       </div>
