@@ -13,7 +13,7 @@ function Testimonials() {
         {users.map((user) => (
           <div key={user.id} className={styles.card}>
             <Image
-              src={`${process.env.NEXT_PUBLIC_URL}/img/${user.logo}`}
+              src={`/img/${user.logo}`}
               width="30"
               height="30"
               alt={user.name}
